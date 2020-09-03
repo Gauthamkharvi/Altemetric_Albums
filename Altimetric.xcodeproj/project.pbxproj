@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5D7FA442500E95700469551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA432500E95700469551 /* AppDelegate.swift */; };
+		B5D7FA462500E95700469551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA452500E95700469551 /* SceneDelegate.swift */; };
+		B5D7FA482500E95700469551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA472500E95700469551 /* ViewController.swift */; };
+		B5D7FA4B2500E95700469551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA492500E95700469551 /* Main.storyboard */; };
+		B5D7FA4D2500E95B00469551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA4C2500E95B00469551 /* Assets.xcassets */; };
+		B5D7FA502500E95B00469551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA4E2500E95B00469551 /* LaunchScreen.storyboard */; };
+		B5D7FA5B2500E95B00469551 /* AltimetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA5A2500E95B00469551 /* AltimetricTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D7FA572500E95B00469551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D7FA382500E95700469551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D7FA3F2500E95700469551;
+			remoteInfo = Altimetric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5D7FA402500E95700469551 /* Altimetric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altimetric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7FA432500E95700469551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5D7FA452500E95700469551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5D7FA472500E95700469551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5D7FA4A2500E95700469551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D7FA4C2500E95B00469551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D7FA4F2500E95B00469551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5D7FA512500E95B00469551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D7FA562500E95B00469551 /* AltimetricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7FA5A2500E95B00469551 /* AltimetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetricTests.swift; sourceTree = "<group>"; };
+		B5D7FA5C2500E95B00469551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D7FA3D2500E95700469551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7FA532500E95B00469551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D7FA372500E95700469551 = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA422500E95700469551 /* Altimetric */,
+				B5D7FA592500E95B00469551 /* AltimetricTests */,
+				B5D7FA412500E95700469551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D7FA412500E95700469551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA402500E95700469551 /* Altimetric.app */,
+				B5D7FA562500E95B00469551 /* AltimetricTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D7FA422500E95700469551 /* Altimetric */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA432500E95700469551 /* AppDelegate.swift */,
+				B5D7FA452500E95700469551 /* SceneDelegate.swift */,
+				B5D7FA472500E95700469551 /* ViewController.swift */,
+				B5D7FA492500E95700469551 /* Main.storyboard */,
+				B5D7FA4C2500E95B00469551 /* Assets.xcassets */,
+				B5D7FA4E2500E95B00469551 /* LaunchScreen.storyboard */,
+				B5D7FA512500E95B00469551 /* Info.plist */,
+			);
+			path = Altimetric;
+			sourceTree = "<group>";
+		};
+		B5D7FA592500E95B00469551 /* AltimetricTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA5A2500E95B00469551 /* AltimetricTests.swift */,
+				B5D7FA5C2500E95B00469551 /* Info.plist */,
+			);
+			path = AltimetricTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D7FA3F2500E95700469551 /* Altimetric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7FA5F2500E95B00469551 /* Build configuration list for PBXNativeTarget "Altimetric" */;
+			buildPhases = (
+				B5D7FA3C2500E95700469551 /* Sources */,
+				B5D7FA3D2500E95700469551 /* Frameworks */,
+				B5D7FA3E2500E95700469551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Altimetric;
+			productName = Altimetric;
+			productReference = B5D7FA402500E95700469551 /* Altimetric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5D7FA552500E95B00469551 /* AltimetricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7FA622500E95B00469551 /* Build configuration list for PBXNativeTarget "AltimetricTests" */;
+			buildPhases = (
+				B5D7FA522500E95B00469551 /* Sources */,
+				B5D7FA532500E95B00469551 /* Frameworks */,
+				B5D7FA542500E95B00469551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D7FA582500E95B00469551 /* PBXTargetDependency */,
+			);
+			name = AltimetricTests;
+			productName = AltimetricTests;
+			productReference = B5D7FA562500E95B00469551 /* AltimetricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D7FA382500E95700469551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "gautham kharvi";
+				TargetAttributes = {
+					B5D7FA3F2500E95700469551 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B5D7FA552500E95B00469551 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B5D7FA3F2500E95700469551;
+					};
+				};
+			};
+			buildConfigurationList = B5D7FA3B2500E95700469551 /* Build configuration list for PBXProject "Altimetric" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D7FA372500E95700469551;
+			productRefGroup = B5D7FA412500E95700469551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D7FA3F2500E95700469551 /* Altimetric */,
+				B5D7FA552500E95B00469551 /* AltimetricTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D7FA3E2500E95700469551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7FA502500E95B00469551 /* LaunchScreen.storyboard in Resources */,
+				B5D7FA4D2500E95B00469551 /* Assets.xcassets in Resources */,
+				B5D7FA4B2500E95700469551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7FA542500E95B00469551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D7FA3C2500E95700469551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7FA482500E95700469551 /* ViewController.swift in Sources */,
+				B5D7FA442500E95700469551 /* AppDelegate.swift in Sources */,
+				B5D7FA462500E95700469551 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7FA522500E95B00469551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7FA5B2500E95B00469551 /* AltimetricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D7FA582500E95B00469551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D7FA3F2500E95700469551 /* Altimetric */;
+			targetProxy = B5D7FA572500E95B00469551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5D7FA492500E95700469551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D7FA4A2500E95700469551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5D7FA4E2500E95B00469551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D7FA4F2500E95B00469551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D7FA5D2500E95B00469551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D7FA5E2500E95B00469551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D7FA602500E95B00469551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Altimetric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.Altimetric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D7FA612500E95B00469551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Altimetric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.Altimetric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5D7FA632500E95B00469551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetricTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.AltimetricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altimetric.app/Altimetric";
+			};
+			name = Debug;
+		};
+		B5D7FA642500E95B00469551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AltimetricTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.AltimetricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Altimetric.app/Altimetric";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D7FA3B2500E95700469551 /* Build configuration list for PBXProject "Altimetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7FA5D2500E95B00469551 /* Debug */,
+				B5D7FA5E2500E95B00469551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7FA5F2500E95B00469551 /* Build configuration list for PBXNativeTarget "Altimetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7FA602500E95B00469551 /* Debug */,
+				B5D7FA612500E95B00469551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7FA622500E95B00469551 /* Build configuration list for PBXNativeTarget "AltimetricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7FA632500E95B00469551 /* Debug */,
+				B5D7FA642500E95B00469551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D7FA382500E95700469551 /* Project object */;
+}
