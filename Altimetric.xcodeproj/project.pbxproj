@@ -3,17 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58A93E92503AD9A003599F9 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93E82503AD9A003599F9 /* CartViewController.swift */; };
+		B58A93EC2503AE53003599F9 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93EB2503AE53003599F9 /* CartViewModel.swift */; };
+		B58A93EE2503B0AC003599F9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93ED2503B0AC003599F9 /* UIViewControllerExtension.swift */; };
+		B58A93F02503B6BC003599F9 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93EF2503B6BC003599F9 /* RealmExtension.swift */; };
+		B58A93F22503BFC0003599F9 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58A93F12503BFC0003599F9 /* AlbumCell.xib */; };
+		B58A93F425055C7F003599F9 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93F325055C7F003599F9 /* SearchViewModel.swift */; };
+		B58A93F6250761B5003599F9 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93F5250761B5003599F9 /* SortViewController.swift */; };
+		B58A93F8250761D7003599F9 /* SortFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A93F7250761D7003599F9 /* SortFieldTableViewCell.swift */; };
+		B5CAEAD82501791400694826 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAEAD72501791400694826 /* AlbumCell.swift */; };
+		B5CAEADB250224D100694826 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAEADA250224D100694826 /* SearchViewController.swift */; };
+		B5CAEAE1250367E900694826 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAEAE0250367E900694826 /* AlbumListViewModel.swift */; };
+		B5CAEAE525039BAE00694826 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAEAE425039BAE00694826 /* CustomView.swift */; };
+		B5D28F2E2521C9890012068D /* ServiceUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D28F2D2521C9890012068D /* ServiceUrls.swift */; };
+		B5D28F302521CA4D0012068D /* AlbumItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D28F2F2521CA4D0012068D /* AlbumItem.swift */; };
+		B5D28F322521CA700012068D /* AlbumResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D28F312521CA700012068D /* AlbumResult.swift */; };
 		B5D7FA442500E95700469551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA432500E95700469551 /* AppDelegate.swift */; };
 		B5D7FA462500E95700469551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA452500E95700469551 /* SceneDelegate.swift */; };
-		B5D7FA482500E95700469551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA472500E95700469551 /* ViewController.swift */; };
+		B5D7FA482500E95700469551 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA472500E95700469551 /* AlbumListViewController.swift */; };
 		B5D7FA4B2500E95700469551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA492500E95700469551 /* Main.storyboard */; };
 		B5D7FA4D2500E95B00469551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA4C2500E95B00469551 /* Assets.xcassets */; };
 		B5D7FA502500E95B00469551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7FA4E2500E95B00469551 /* LaunchScreen.storyboard */; };
 		B5D7FA5B2500E95B00469551 /* AltimetricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA5A2500E95B00469551 /* AltimetricTests.swift */; };
+		B5D7FA672500E9A700469551 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA662500E9A700469551 /* Album.swift */; };
+		B5D7FA6A2500ED1B00469551 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7FA692500ED1B00469551 /* NetworkManager.swift */; };
+		B5DA750F2508AB370005729A /* SortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA750E2508AB370005729A /* SortViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B58A93E82503AD9A003599F9 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		B58A93EB2503AE53003599F9 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		B58A93ED2503B0AC003599F9 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B58A93EF2503B6BC003599F9 /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
+		B58A93F12503BFC0003599F9 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		B58A93F325055C7F003599F9 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		B58A93F5250761B5003599F9 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		B58A93F7250761D7003599F9 /* SortFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFieldTableViewCell.swift; sourceTree = "<group>"; };
+		B5CAEAD72501791400694826 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		B5CAEADA250224D100694826 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B5CAEADC2502523300694826 /* Altimetric-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Altimetric-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5CAEAE0250367E900694826 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		B5CAEAE425039BAE00694826 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		B5D28F2D2521C9890012068D /* ServiceUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUrls.swift; sourceTree = "<group>"; };
+		B5D28F2F2521CA4D0012068D /* AlbumItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumItem.swift; sourceTree = "<group>"; };
+		B5D28F312521CA700012068D /* AlbumResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumResult.swift; sourceTree = "<group>"; };
 		B5D7FA402500E95700469551 /* Altimetric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altimetric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7FA432500E95700469551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D7FA452500E95700469551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5D7FA472500E95700469551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5D7FA472500E95700469551 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
 		B5D7FA4A2500E95700469551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5D7FA4C2500E95B00469551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D7FA4F2500E95B00469551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +72,9 @@
 		B5D7FA562500E95B00469551 /* AltimetricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7FA5A2500E95B00469551 /* AltimetricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetricTests.swift; sourceTree = "<group>"; };
 		B5D7FA5C2500E95B00469551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D7FA662500E9A700469551 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		B5D7FA692500ED1B00469551 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B5DA750E2508AB370005729A /* SortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +95,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B58A93EA2503AE3C003599F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAEAE0250367E900694826 /* AlbumListViewModel.swift */,
+				B58A93EB2503AE53003599F9 /* CartViewModel.swift */,
+				B58A93F325055C7F003599F9 /* SearchViewModel.swift */,
+				B5DA750E2508AB370005729A /* SortViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5CAEAD6250178FC00694826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAEAD72501791400694826 /* AlbumCell.swift */,
+				B58A93F7250761D7003599F9 /* SortFieldTableViewCell.swift */,
+				B5CAEAE425039BAE00694826 /* CustomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5CAEAD9250224B600694826 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA472500E95700469551 /* AlbumListViewController.swift */,
+				B5CAEADA250224D100694826 /* SearchViewController.swift */,
+				B58A93E82503AD9A003599F9 /* CartViewController.swift */,
+				B58A93F5250761B5003599F9 /* SortViewController.swift */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		B5D28F2C2521C9320012068D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B58A93ED2503B0AC003599F9 /* UIViewControllerExtension.swift */,
+				B5D28F2D2521C9890012068D /* ServiceUrls.swift */,
+				B58A93EF2503B6BC003599F9 /* RealmExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B5D7FA372500E95700469551 = {
 			isa = PBXGroup;
 			children = (
 				B5D7FA422500E95700469551 /* Altimetric */,
 				B5D7FA592500E95B00469551 /* AltimetricTests */,
 				B5D7FA412500E95700469551 /* Products */,
+				C91EF9B466C250E50BE74DE4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +159,20 @@
 		B5D7FA422500E95700469551 /* Altimetric */ = {
 			isa = PBXGroup;
 			children = (
+				B5D28F2C2521C9320012068D /* Helpers */,
+				B58A93EA2503AE3C003599F9 /* ViewModel */,
+				B5CAEAD9250224B600694826 /* VIewControllers */,
+				B5CAEAD6250178FC00694826 /* Views */,
+				B5D7FA682500ECF200469551 /* Serivice */,
+				B5D7FA652500E96F00469551 /* Model */,
 				B5D7FA432500E95700469551 /* AppDelegate.swift */,
 				B5D7FA452500E95700469551 /* SceneDelegate.swift */,
-				B5D7FA472500E95700469551 /* ViewController.swift */,
 				B5D7FA492500E95700469551 /* Main.storyboard */,
+				B58A93F12503BFC0003599F9 /* AlbumCell.xib */,
 				B5D7FA4C2500E95B00469551 /* Assets.xcassets */,
 				B5D7FA4E2500E95B00469551 /* LaunchScreen.storyboard */,
 				B5D7FA512500E95B00469551 /* Info.plist */,
+				B5CAEADC2502523300694826 /* Altimetric-Bridging-Header.h */,
 			);
 			path = Altimetric;
 			sourceTree = "<group>";
@@ -97,6 +184,31 @@
 				B5D7FA5C2500E95B00469551 /* Info.plist */,
 			);
 			path = AltimetricTests;
+			sourceTree = "<group>";
+		};
+		B5D7FA652500E96F00469551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA662500E9A700469551 /* Album.swift */,
+				B5D28F2F2521CA4D0012068D /* AlbumItem.swift */,
+				B5D28F312521CA700012068D /* AlbumResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D7FA682500ECF200469551 /* Serivice */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7FA692500ED1B00469551 /* NetworkManager.swift */,
+			);
+			path = Serivice;
+			sourceTree = "<group>";
+		};
+		C91EF9B466C250E50BE74DE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +261,7 @@
 				TargetAttributes = {
 					B5D7FA3F2500E95700469551 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					B5D7FA552500E95B00469551 = {
 						CreatedOnToolsVersion = 11.6;
@@ -183,6 +296,7 @@
 				B5D7FA502500E95B00469551 /* LaunchScreen.storyboard in Resources */,
 				B5D7FA4D2500E95B00469551 /* Assets.xcassets in Resources */,
 				B5D7FA4B2500E95700469551 /* Main.storyboard in Resources */,
+				B58A93F22503BFC0003599F9 /* AlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +314,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D7FA482500E95700469551 /* ViewController.swift in Sources */,
+				B5D28F322521CA700012068D /* AlbumResult.swift in Sources */,
+				B58A93F8250761D7003599F9 /* SortFieldTableViewCell.swift in Sources */,
+				B58A93EC2503AE53003599F9 /* CartViewModel.swift in Sources */,
+				B5D7FA482500E95700469551 /* AlbumListViewController.swift in Sources */,
+				B5CAEADB250224D100694826 /* SearchViewController.swift in Sources */,
+				B5DA750F2508AB370005729A /* SortViewModel.swift in Sources */,
+				B58A93F02503B6BC003599F9 /* RealmExtension.swift in Sources */,
 				B5D7FA442500E95700469551 /* AppDelegate.swift in Sources */,
+				B5D28F302521CA4D0012068D /* AlbumItem.swift in Sources */,
+				B5D7FA6A2500ED1B00469551 /* NetworkManager.swift in Sources */,
+				B58A93F425055C7F003599F9 /* SearchViewModel.swift in Sources */,
+				B5D28F2E2521C9890012068D /* ServiceUrls.swift in Sources */,
+				B5CAEAE1250367E900694826 /* AlbumListViewModel.swift in Sources */,
+				B5CAEAE525039BAE00694826 /* CustomView.swift in Sources */,
 				B5D7FA462500E95700469551 /* SceneDelegate.swift in Sources */,
+				B58A93F6250761B5003599F9 /* SortViewController.swift in Sources */,
+				B58A93E92503AD9A003599F9 /* CartViewController.swift in Sources */,
+				B58A93EE2503B0AC003599F9 /* UIViewControllerExtension.swift in Sources */,
+				B5D7FA672500E9A700469551 /* Album.swift in Sources */,
+				B5CAEAD82501791400694826 /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Altimetric/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,6 +502,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.Altimetric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altimetric/Altimetric-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Altimetric/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gauth.Altimetric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Altimetric/Altimetric-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
